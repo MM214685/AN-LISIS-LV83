@@ -85,7 +85,8 @@ def aplicar_estilo_color(df):
         estilo = estilo.background_gradient(subset=['Margen %'], cmap='RdYlGn', vmin=0.0, vmax=0.10)
     return estilo
 
-st.title("📊 Cuadro de Mandos - Análisis de Resultados BEI")
+st.set_page_config(page_title="ANÁLISIS LV83 - LEVANTE", layout="wide")
+st.title("📊 ANÁLISIS LV83 - LEVANTE")
 
 uploaded_file = st.file_uploader("Sube el archivo Excel de descarga del BEI", type=["xls", "xlsx"])
 
